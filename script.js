@@ -84,34 +84,34 @@ backButton.addEventListener('click', onhideGallery);
 
 
 const gallery1=[
-    "/image/performance/scaledown/conceptartscaledown/CrimsonHorn_full.png",
-    "/image/performance/scaledown/conceptartscaledown/Blank_full.png",
-    "/image/performance/scaledown/conceptartscaledown/seleus final fight_full.png",
-    "/image/performance/scaledown/conceptartscaledown/Spine_full.png",
-    "/image/performance/scaledown/conceptartscaledown/Knight_full.png",
-    "/image/performance/scaledown/conceptartscaledown/Jounal_full.png",
-    "/image/performance/scaledown/conceptartscaledown/EchoesOfADying Civilization_full.png",
-    "/image/performance/scaledown/conceptartscaledown/DreamCastle_full.png",
-    "/image/performance/scaledown/conceptartscaledown/JustADream_full.png",
+    "./image/performance/scaledown/conceptartscaledown/CrimsonHorn_full.png",
+    "./image/performance/scaledown/conceptartscaledown/Blank_full.png",
+    "./image/performance/scaledown/conceptartscaledown/seleus final fight_full.png",
+    "./image/performance/scaledown/conceptartscaledown/Spine_full.png",
+    "./image/performance/scaledown/conceptartscaledown/Knight_full.png",
+    "./image/performance/scaledown/conceptartscaledown/Jounal_full.png",
+    "./image/performance/scaledown/conceptartscaledown/EchoesOfADying Civilization_full.png",
+    "./image/performance/scaledown/conceptartscaledown/DreamCastle_full.png",
+    "./image/performance/scaledown/conceptartscaledown/JustADream_full.png",
 ]
 
 const gallery2=[
-    "/image/performance/scaledown/characterdesign scaledown/DragonFruit.png",
-    "/image/performance/scaledown/characterdesign scaledown/DragonxWixardposter.png",
-    "/image/performance/scaledown/characterdesign scaledown/SpaceFox.png",
-    "/image/performance/scaledown/characterdesign scaledown/Stingray.png"
+    "./image/performance/scaledown/characterdesign scaledown/DragonFruit.png",
+    "./image/performance/scaledown/characterdesign scaledown/DragonxWixardposter.png",
+    "./image/performance/scaledown/characterdesign scaledown/SpaceFox.png",
+    "./image/performance/scaledown/characterdesign scaledown/Stingray.png"
 ]
 
 const gallery3=[
-    "/image//performance/scaledown/3Dscaledown/Bridge.png",
-    "/image/performance/scaledown/3Dscaledown/Chest.png",
-    "/image/performance/scaledown/3Dscaledown/ICTmushroom.png"
+    "./image//performance/scaledown/3Dscaledown/Bridge.png",
+    "./image/performance/scaledown/3Dscaledown/Chest.png",
+    "./image/performance/scaledown/3Dscaledown/ICTmushroom.png"
 
 ]
 
 const galler4=[
-    "/image//performance/scaledown/animationscaledown/RedSky.png",
-    "/image/performance/scaledown/animationscaledown/Emily.png"
+    "./image//performance/scaledown/animationscaledown/RedSky.png",
+    "./image/performance/scaledown/animationscaledown/Emily.png"
 ]
 
 const allGalleries = {
@@ -192,7 +192,7 @@ function onaboutclick(){
 }
 
 function hideAboutMe(){
-    aboutbtn.children[0].src="/image/aboutme.icon.png";
+    aboutbtn.children[0].src="./image/aboutme.icon.png";
     aboutme.classList.remove("popup");
     setTimeout(() => {
         console.log("in");
@@ -201,7 +201,7 @@ function hideAboutMe(){
 }
 
 function showAboutMe(){
-    aboutbtn.children[0].src="/image/aboutmeyellow.icon.png";
+    aboutbtn.children[0].src="./image/aboutmeyellow.icon.png";
     aboutme.classList.add("show");
     setTimeout(() => {
         console.log("in");
@@ -226,7 +226,7 @@ function onperformanceclick(){
 }
 
 function hidePerformance(){
-    performancebtn.children[0].src="/image/performance.icon.png";
+    performancebtn.children[0].src="./image/performance.icon.png";
     performance.classList.remove("popup");
     
     console.log("in");
@@ -236,7 +236,7 @@ function hidePerformance(){
 }
 
 function showPerformance(){
-    performancebtn.children[0].src="/image/performanceyellow.icon.png";
+    performancebtn.children[0].src="./image/performanceyellow.icon.png";
     performance.classList.add("show");
     console.log("in");
     performance.classList.add("popup");
