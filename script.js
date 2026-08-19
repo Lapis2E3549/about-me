@@ -86,7 +86,7 @@ backButton.addEventListener('click', onhideGallery);
 const gallery1=[
     "./image/performance/scaledown/conceptartscaledown/CrimsonHorn_full.png",
     "./image/performance/scaledown/conceptartscaledown/Blank_full.png",
-    "./image/performance/scaledown/conceptartscaledown/seleus final fight_full.png",
+    "./image/performance/scaledown/conceptartscaledown/seleus_final_fight_full.png",
     "./image/performance/scaledown/conceptartscaledown/Spine_full.png",
     "./image/performance/scaledown/conceptartscaledown/Knight_full.png",
     "./image/performance/scaledown/conceptartscaledown/Jounal_full.png",
