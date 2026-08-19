@@ -9,7 +9,7 @@
     width: 1450px;
     height: 700px;
     border-radius: 35px;
-    background-image: url("./image/background.png");
+    background-image: url('image/background.png');
     background-size: 650px;
     background-repeat: no-repeat;
     background-position: right top;
