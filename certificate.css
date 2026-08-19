@@ -1,0 +1,52 @@
+#certificate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(255, 0, 0);
+    display: none;
+    transform: translate(-50%,100%);
+    transition: all 0.5s ease-out;
+    width: 1450px;
+    height: 700px;
+    border-radius: 35px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0,0.15);
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+#certificate .content{
+    text-align: center;
+    overflow-y: auto;
+    height: 100%;
+    
+}
+
+.show {
+    display: block !important;
+}
+
+.popup {
+    transform: translate(-50%,-50%) !important;
+}
+
+
+#certificate .content {
+    position: relative;
+    height: 100%;
+    display: flex;
+}
+
+#certificate .content .left {
+    width: 50%;
+}
+
+#certificate .content .right {
+    width: 50%;
+} 
+
+#certificate .content img {
+    margin-bottom: 10px;
+}
+
