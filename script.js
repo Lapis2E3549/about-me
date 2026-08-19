@@ -90,7 +90,7 @@ const gallery1=[
     "./image/performance/scaledown/conceptartscaledown/Spine_full.png",
     "./image/performance/scaledown/conceptartscaledown/Knight_full.png",
     "./image/performance/scaledown/conceptartscaledown/Jounal_full.png",
-    "./image/performance/scaledown/conceptartscaledown/EchoesOfADying Civilization_full.png",
+    "./image/performance/scaledown/conceptartscaledown/EchoesOfADying_Civilization_full.png",
     "./image/performance/scaledown/conceptartscaledown/DreamCastle_full.png",
     "./image/performance/scaledown/conceptartscaledown/JustADream_full.png",
 ]

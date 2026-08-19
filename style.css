@@ -87,7 +87,7 @@ position: fixed;
 
 body {
     margin: 0;
-    background-image:url(/bg\ blue.jpg);
+    background-image:url(/bg\_blue.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:2380px ;
